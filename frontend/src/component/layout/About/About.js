@@ -5,7 +5,7 @@ import ProfileHead from "../../../images/logo.PNG";
 
 const About = () => {
   const visitLinkedin = () => {
-    window.location = "https://www.linkedin.com/in/mohammad-owais-555317201/";
+    window.location = "https://www.linkedin.com/in/anubhav-goyal-962744211/";
   };
   return (
     <div className="aboutContainer">
@@ -16,7 +16,7 @@ const About = () => {
           src={ProfileHead}
           alt="Founder"
         />
-        <h1>Mohammad Owais</h1>
+        <h1>Anubhav Goyal</h1>
         <h3>(Head of MEW)</h3>
         <Button onClick={visitLinkedin} color="primary">
           Visit My Linkedin
